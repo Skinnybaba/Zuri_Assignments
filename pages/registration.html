@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+</head>
+<body>
+    <h1>Welcome to the registration page</h1>
+    <div class="signup-box">
+        <form action="./success.html">
+            <label for="firstname" class="firstname">First Name</label>
+            <input type="text" name="full-name" required/>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="last-name" required/>
+            <label for="phone">Phone Number</label>
+            <input type="number" name="phone-number" minlength="10" required/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required="@"/>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required/>
+            <label for="password">Confirm Password</label>
+            <input type="password" name="password" id="password" required="password"/>
+            <label for="gender">Gender</label>
+            <select id="gender" required> 
+            <option type="radio" value="choose" selected disabled name="gender" id="choose">Choose an option
+            <option type="radio" value="male" name="gender" id="male">male
+            <option type="radio" value="female" name="gender" id="female">female
+            </select>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" required/>
+            <label for="color">Choose your favorite color</label>
+            <input type="color" name="color" id="color"/>
+            <button type="submit">Sign up</button>
+        </form>
+        <p>By clicking the sign up page you agree to our <a href="#">terms and conditions</a></p>
+        <p id="account">Already have an account? <a href="../index.html">Login here</a></p>
+    </div>
+    
+    
+</body>
+</html>

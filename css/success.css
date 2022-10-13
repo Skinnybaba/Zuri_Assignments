@@ -1,0 +1,28 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #344a72;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    color: white;
+
+}
+
+p {
+    color: white;
+}
